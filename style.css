@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+.section{
+    background-color: #F0FFF0;
+    height: 550px;
+}
+.nav-link{
+    color: black;
+    font-weight:900px;
+    
+}
+
+
+.btn{
+    color:white;
+    background-color:#21B573 ;
+    border: none;
+    border-radius: 33px;
+    padding: 5px 20px; 
+    
+}
+.frst{
+
+background-color: #F8FFFB;
+align-items: center;
+justify-content: center;
+border: none;
+text-align: center;
+margin: 20px;
+padding: 50px 0;
+}
+
+
+.frst img{
+    height: 85px;
+    width: 66px;
+    
+}
+
+.card:hover{
+    box-shadow: 5px 5px 10px rgb(225, 221, 221);
+    transform: scale(1.1);
+    transition:1s ;
+    
+}
+.psy img{
+padding: 15px;
+}
+.psy{
+    border: none;
+    box-shadow: 5px 5px 10px rgb(225, 221, 221);
+}
+.clndr{
+    height: 50px;
+    width: 50px;
+}
+.card-footer{
+    background-color: white;
+    border: none;
+    padding: 0%;
+}
+.link li a{
+    text-decoration: none;
+    color:rgb(84, 80, 80);
+}
+.finishing p{
+    font-weight: lighter;
+}
+.finishing{
+    padding-left: 50px;
+}
+@media screen and (max-width: 400px) {
+    .last{
+        width: 100%;
+    }
+}
